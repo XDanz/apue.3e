@@ -1,8 +1,8 @@
 #include	<stdio.h>
 
 #ifndef LINUX
-extern char	*sys_errlist[];
-extern int	sys_nerr;
+//extern char	*sys_errlist[];
+//#extern int	sys_nerr;
 #endif
 
 char *
