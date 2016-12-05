@@ -6,7 +6,6 @@
 .idea/workspace.xml
 build/
 cmake-build-debug/
-lib/CMakeLists.txt
 ### C template
 # Prerequisites
 *.d
