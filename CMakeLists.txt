@@ -13,7 +13,7 @@ find_package(Threads REQUIRED)
 add_subdirectory(lib)
 add_subdirectory(intro)
 add_subdirectory(stdio)
-#add_subdirectory(advio)
+add_subdirectory(fileio)
 #add_executable(byteorder intro/byteorder.c)
 
 #nclude_directories(lib)
