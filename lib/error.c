@@ -109,7 +109,7 @@ err_quit(const char *fmt, ...)
 	exit(1);
 }
 
-/*
+/**
  * Print a message and return to caller.
  * Caller specifies "errnoflag".
  */

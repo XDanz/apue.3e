@@ -10,8 +10,8 @@ strerror(int error)
 {
 	static char	mesg[30];
 
-	if (error >= 0 && error <= sys_nerr)
-		return((char *)sys_errlist[error]);
+	if (error >= 0)
+		return strerror(error);
 
 	sprintf(mesg, "Unknown error (%d)", error);
 	return(mesg);
