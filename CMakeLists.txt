@@ -14,6 +14,7 @@ add_subdirectory(lib)
 add_subdirectory(intro)
 add_subdirectory(stdio)
 add_subdirectory(fileio)
+add_subdirectory(signals)
 #add_executable(byteorder intro/byteorder.c)
 
 #nclude_directories(lib)
