@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(intro)
 
-include_directories(../include)
+include_directories(../lib/include)
 add_executable(sigusr sigusr.c)
 #add_executable(getcputc getcputc.c)
 #add_executable(ls1 ls1.c)

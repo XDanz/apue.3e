@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(stdio)
 
-include_directories(../include)
+include_directories(../lib/include)
 
 add_executable(buf buf.c)
 

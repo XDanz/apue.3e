@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(intro)
 
-include_directories(../include)
+include_directories(include)
 add_executable(hello hello.c)
 add_executable(getcputc getcputc.c)
 add_executable(ls1 ls1.c)

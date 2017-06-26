@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(fileio)
 
-include_directories(../include)
+include_directories(include)
 
 add_executable(fileflags fileflags.c)
 add_executable(hole hole.c)
