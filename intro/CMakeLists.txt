@@ -9,6 +9,8 @@ add_executable(mycat mycat.c)
 add_executable(shell1 shell1.c)
 add_executable(shell2 shell2.c)
 add_executable(testerror testerror.c)
+add_executable(uidgid uidgid.c)
+add_executable(vsnprintf_test vsnprintf_test.c)
 #add_executable(daytimetcpcli1 daytimetcpcli1.c)
 
 target_link_libraries(hello apue)
@@ -18,6 +20,7 @@ target_link_libraries(shell1 apue)
 target_link_libraries(shell2 apue)
 target_link_libraries(getcputc apue)
 target_link_libraries(testerror apue)
+target_link_libraries(uidgid apue)
 #[[
 set (intro_EXECUTABLES daytimetcpcli
         daytimetcpcli1
